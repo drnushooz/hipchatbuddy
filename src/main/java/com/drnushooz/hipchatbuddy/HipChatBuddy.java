@@ -124,6 +124,7 @@ public class HipChatBuddy implements ActionListener
 
 	public static void main( String[] args )
 	{
+		System.setProperty("apple.awt.UIElement","true");
 		HipChatBuddy appl = new HipChatBuddy();
 	}
 }
